@@ -1,7 +1,7 @@
 
 
 
-
+// Function to clear form fields
 $(function(){
     
     $('.btnClear').click(function()
@@ -42,7 +42,7 @@ $(function(){
 
 
 
-
+// API to convert the price from CLP to USD
 $(function () {
     var dolarValue;
 
@@ -79,3 +79,6 @@ $(function () {
         });
     });
 });
+
+
+
