@@ -1,0 +1,464 @@
+/*INDEX STYLING */
+
+/*PINTURAS STYLING */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(135deg, #fdfcfb 0%, #e2d1c3 100%);
+    color: #333;
+}
+.header {
+    background-color: #6a515e;
+    color: #fff;
+    padding: 20px 20px;
+    text-align: center;
+    font-size: 24px;
+    letter-spacing: 2px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    padding: 50px 20px;
+}
+.painting, .featured {
+    background: #fff; 
+    border: 1px solid #ddd;
+    padding: 15px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+    width: 300px;
+    transition: transform 0.3s ease-in-out;
+}
+.painting:hover, .featured:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 12px 24px rgba(0,0,0,0.3);
+}
+.painting img, .featured img {
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+    border-bottom: 4px solid #6a515e; 
+}
+.painting-info, .featured-info {
+    padding: 20px;
+    background: #fafafa; 
+    border-top: 1px solid #eee; 
+}
+.painting-info h3, .featured-info h3 {
+    color: #6a515e;
+    font-weight: bold;
+}
+.painting-info p, .featured-info p {
+    font-size: 14px;
+    line-height: 1.8;
+    color: #666;
+}
+
+
+body, .header, .painting-info, .featured-info {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+/* Esculturas Body*/
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(135deg, #fdfcfb 0%, #e2d1c3 100%);
+    color: #333;
+}
+.header {
+    background-color: #6a515e;
+    color: white;
+    padding: 20px 20px;
+    text-align: center;
+    font-size: 24px;
+    letter-spacing: 2px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    padding: 50px 20px;
+}
+.sculpture, .featured-sculpture {
+    background: white;
+    border: 1px solid #ddd;
+    padding: 15px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+    width: 300px;
+    transition: transform 0.3s ease-in-out;
+}
+.sculpture:hover, .featured-sculpture:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 12px 24px rgba(0,0,0,0.3);
+}
+.sculpture img, .featured-sculpture img {
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+    border-bottom: 4px solid #6a515e;
+}
+.sculpture-info, .featured-sculpture-info {
+    padding: 20px;
+    background: #fafafa;
+    border-top: 1px solid #eee;
+}
+.sculpture-info h3, .featured-sculpture-info h3 {
+    color: #6a515e;
+    font-weight: bold;
+}
+.sculpture-info p, .featured-sculpture-info p {
+    font-size: 14px;
+    line-height: 1.8;
+    color: #666;
+}
+
+/* Tejidos Styling */
+body, .header, .sculpture-info, .featured-sculpture-info {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body, .header, .sculpture-info, .featured-sculpture-info {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(135deg, #fdfcfb 0%, #e2d1c3 100%);
+    color: #333;
+}
+.header {
+    background-color: #6a515e;
+    color: white;
+    padding: 20px 20px;
+    text-align: center;
+    font-size: 24px;
+    letter-spacing: 2px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    padding: 50px 20px;
+}
+.textile, .featured-textile {
+    background: white;
+    border: 1px solid #ddd;
+    padding: 15px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+    width: 300px;
+    transition: transform 0.3s ease-in-out;
+}
+.textile:hover, .featured-textile:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 12px 24px rgba(0,0,0,0.3);
+}
+.textile img, .featured-textile img {
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+    border-bottom: 4px solid #6a515e;
+}
+.textile-info, .featured-textile-info {
+    padding: 20px;
+    background: #fafafa;
+    border-top: 1px solid #eee;
+}
+.textile-info h3, .featured-textile-info h3 {
+    color: #6a515e;
+    font-weight: bold;
+}
+.textile-info p, .featured-textile-info p {
+    font-size: 14px;
+    line-height: 1.8;
+    color: #666;
+}
+
+
+/* Orfe STYLING*/
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(135deg, #fdfcfb 0%, #e2d1c3 100%);
+    color: #333;
+}
+.header {
+    background-color: #6a515e;
+    color: white;
+    padding: 20px 20px;
+    text-align: center;
+    font-size: 24px;
+    letter-spacing: 2px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    padding: 50px 20px;
+}
+.orfebreria, .featured-orfebreria {
+    background: white;
+    border: 1px solid #ddd;
+    padding: 15px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+    width: 300px;
+    transition: transform 0.3s ease-in-out;
+}
+.orfebreria:hover, .featured-orfebreria:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 12px 24px rgba(0,0,0,0.3);
+}
+.orfebreria img, .featured-orfebreria img {
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+    border-bottom: 4px solid #6a515e;
+}
+.orfebreria-info, .featured-orfebreria-info {
+    padding: 20px;
+    background: #fafafa;
+    border-top: 1px solid #eee;
+}
+.orfebreria-info h3, .featured-orfebreria-info h3 {
+    color: #6a515e;
+    font-weight: bold;
+}
+.orfebreria-info p, .featured-orfebreria-info p {
+    font-size: 14px;
+    line-height: 1.8;
+    color: #666;
+}
+
+
+body, .header, .orfebreria-info, .featured-orfebreria-info {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Cine */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(135deg, #fdfcfb 0%, #e2d1c3 100%);
+    color: #333;
+}
+.header {
+    background-color: #6a515e;
+    color: white;
+    padding: 20px 20px;
+    text-align: center;
+    font-size: 24px;
+    letter-spacing: 2px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    padding: 50px 20px;
+}
+.movie, .featured-movie {
+    background: white;
+    border: 1px solid #ddd;
+    padding: 15px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+    width: 300px;
+    transition: transform 0.3s ease-in-out;
+}
+.movie:hover, .featured-movie:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 12px 24px rgba(0,0,0,0.3);
+}
+.movie img, .featured-movie img {
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+    border-bottom: 4px solid #6a515e;
+}
+.movie-info, .featured-movie-info {
+    padding: 20px;
+    background: #fafafa;
+    border-top: 1px solid #eee;
+}
+.movie-info h3, .featured-movie-info h3 {
+    color: #6a515e;
+    font-weight: bold;
+}
+.movie-info p, .featured-movie-info p {
+    font-size: 14px;
+    line-height: 1.8;
+    color: #666;
+}
+
+
+body, .header, .movie-info, .featured-movie-info {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+/* Imagenes tienda */
+.product-img img {
+    height: 250px;
+    width: 100%;  
+    object-fit: cover; 
+}
+
+/*formulario de contacto*/
+.contact-form-container {
+    width: 100%;
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    background-color: #e2d1c3f3;
+}
+
+.contact-form-container form h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.form-group textarea {
+    height: 150px;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    display: block;
+    width: 100%;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+}
+
+.message-sent {
+    display: none;
+    text-align: center;
+    margin-top: 20px;
+    color: green;
+}
+
+#sent-check:checked ~ .message-sent {
+    display: block;
+}   
+/*Gestion de (obras)*/
+.admin-review {
+    font-family: 'Arial', sans-serif;
+    background-color: #f7f7f7;
+    color: #333;
+}
+
+.admin-container {
+    background-color: #fff;
+    padding: 20px;
+    margin: 20px auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    max-width: 600px;
+}
+
+.admin-container h1 {
+    font-size: 24px;
+    text-align: center;
+    color: #444;
+}
+
+.admin-container p {
+    margin: 10px 0;
+    font-size: 16px;
+    color: #666;
+}
+
+.admin-container strong {
+    color: #333;
+}
+
+.admin-container img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.admin-button {
+    padding: 10px 15px;
+    font-size: 16px;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-right: 10px;
+    transition: background-color 0.2s ease;
+}
+
+.admin-button:hover {
+    opacity: 0.9;
+}
+
+.admin-button.accept {
+    background-color: #28a745;
+}
+
+.admin-button.reject {
+    background-color: #dc3545; 
+}
+
+
+
+.btn-Change {
+    background-color: transparent;
+    border-color: transparent;
+}
+
+.btn-Change:hover,
+.btn-Change:focus,
+.btn-Change:active {
+    background-color: rgba(0, 0, 0, 0.1);
+    border-color: rgba(0, 0, 0, 0.1);
+}
+
+
+
+
+
+
